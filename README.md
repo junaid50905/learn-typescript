@@ -46,9 +46,29 @@ here, we have to change something in tsconfig.json file's. <br>
 run the code : tsc <br>
 run the code with watching file changes : tsc -w
 
+### variable
+```
+const studentName : string = 'junaid'
+const studentRoll : number = 21
+
+console.log(`name: ${studentName} --- roll: ${studentRoll}`); //name: junaid --- roll: 21
+```
 
 ### array
 TypeScript has a specific syntax for typing arrays.<br>
+
+0
+```
+const values = []
+// in this array we can put any types of value
+
+values.push('junaid')
+console.log(values); // Array [ "junaid" ]
+values.push(54)
+console.log(values); // Array [ "junaid", 54 ]
+values.push(true)
+console.log(values); // Array [ "junaid", 54, true ]
+```
 
 1
 ```
