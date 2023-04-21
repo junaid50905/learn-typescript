@@ -43,6 +43,9 @@ here, we have to change something in tsconfig.json file's. <br>
 - "rootDir": "./src",
 - "outDir": "./output", 
 
+run the code : tsc
+run the code with watching file changes : tsc -w
+
 
 
 
