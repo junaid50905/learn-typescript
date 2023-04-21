@@ -47,8 +47,15 @@ run the code : tsc <br>
 run the code with watching file changes : tsc -w
 
 
+### array
+TypeScript has a specific syntax for typing arrays.<br>
+```
+const names : string[] = []
+names.push('junaid', 'saber')
+console.log(names); // Array [ "junaid", "saber" ]
 
-
+//we have to only string in the names array
+```
 
 
 
