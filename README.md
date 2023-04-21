@@ -56,7 +56,7 @@ const names : string[] = []
 names.push('junaid', 'saber')
 console.log(names); // Array [ "junaid", "saber" ]
 
-//we have to put only string in the names array
+//we have to put only string in the names array // If we put other data type without string then we will get error
 ```
 
 2
@@ -66,6 +66,13 @@ names.push('junaid', 'saber', 6)
 console.log(names);
 
 //we have to put only string and number in the names array
+```
+3
+```
+const names : readonly string[] = ['junaid', 'saber']
+console.log(names);
+
+//we can't push string, this array is only for read
 ```
 
 
