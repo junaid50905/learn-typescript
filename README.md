@@ -26,3 +26,43 @@ open the working directory and write the following commands step by step in the 
 - step 3: Get-ExecutionPolicy -list
 
 now we will be able to write typescript code.
+
+
+##### run single typescript file
+terminal: tsc filename(like : tsc script.ts)
+
+#### project setup
+terminal: tsc --init
+
+- src---------->typescript files
+- output------->typescript javascript converted files
+- index.html
+- tsconfig.json
+
+here, we have to change something in tsconfig.json file's. <br>
+- "rootDir": "./src",
+- "outDir": "./output", 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
