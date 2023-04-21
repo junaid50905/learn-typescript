@@ -49,12 +49,23 @@ run the code with watching file changes : tsc -w
 
 ### array
 TypeScript has a specific syntax for typing arrays.<br>
+
+1
 ```
 const names : string[] = []
 names.push('junaid', 'saber')
 console.log(names); // Array [ "junaid", "saber" ]
 
-//we have to only string in the names array
+//we have to put only string in the names array
+```
+
+2
+```
+const names : (string | number)[] = []
+names.push('junaid', 'saber', 6)
+console.log(names);
+
+//we have to put only string and number in the names array
 ```
 
 
