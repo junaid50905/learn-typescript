@@ -51,6 +51,8 @@ there are three data types in ts
 - number: all types  of number like: integer, float, positive, negative
 - string
 - boolean
+- any
+- object
 
 ### variable
 ```
@@ -136,8 +138,31 @@ console.log(names);
 
 
 
+### object
 
+1
+```
+let person = {
+    name: 'junaid',
+    age: 32,
+    isActive: false,
+}
 
+person.country = 'Bangladesh' //getting error // we will not be able to add country. karon amara jokhon person name ekti object toiri korechi tokho name=string, age=number ar isActive=boolean cara onno property add korte parbo nah. ebong name, age, isActive er data type change o korte parbo nah.
+```
+
+2
+```
+let person: object
+
+person={
+    name: "junaid",
+    age: 32,
+    isMarried : false
+}
+
+// eikhane amra person variable ke object data type diye set kore diyechi, kintu amara object er property gulo set kore dei nai, tai amra caile je kono property rakhte parbo
+```
 
 
 
