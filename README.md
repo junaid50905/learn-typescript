@@ -188,6 +188,13 @@ person={
     age: 32,
     isMarried: false
 }
+
+or,
+const car: { type: string, model: string, year: number } = {
+    type: "Toyota",
+    model: "Corolla",
+    year: 2009
+};
 here, is everything good
 ```
 
