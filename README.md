@@ -53,6 +53,7 @@ there are three data types in ts
 - boolean
 - any
 - object
+- void
 
 ### variable
 ```
@@ -195,15 +196,65 @@ const car: { type: string, model: string, year: number } = {
     model: "Corolla",
     year: 2009
 };
-here, is everything good
+here, is everything good // amra caileo eikhane property missing rakhte parbo nah. mane, dori year dilam nah, tahole amra eikhane error pabo. ar ei problem dur korar jonno ache optional property. nicher 4 e example deya holo
 ```
 
-4
+4 / optional property
+```
+const car: { type: string, model: string, year?: number } = {
+    type: "Toyota",
+    model: "Corolla",
+};
+
+// ekhon caile amara year na o rakhte pari.
+```
+
+
+
+5
 ```
 let person : object
 
 person = ['junaid', 22] // eikhane kono error asbe nah karon, array is one kind of onbject in js
 ```
+
+
+
+
+### function
+1/ void
+
+this is the default return type of a function
+
+```
+//The type void can be used to indicate a function doesn't return any value.
+function myFun() :void {
+    console.log('hi there');
+}
+myFun()
+```
+
+or default
+```
+function myFun() {
+    console.log('hi there');
+}
+myFun()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
