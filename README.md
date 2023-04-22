@@ -165,6 +165,40 @@ person={
 ```
 
 
+3
+```
+let person : {
+    name: string,
+    age: number,
+    isMarried: boolean,
+}
+//eikhane amra person object er structure ta set kore diyeci, ei structure er bahire jodi kew value rakhe ba notun kono property add korar try kore then error dekhabe.
+```
+
+jemon
+```
+let person : {
+    name: string,
+    age: number,
+    isMarried: boolean,
+}
+
+person={
+    name: 'junaid',
+    age: 32,
+    isMarried: false
+}
+here, is everything good
+```
+
+4
+```
+let person : object
+
+person = ['junaid', 22] // eikhane kono error asbe nah karon, array is one kind of onbject in js
+```
+
+
 
 
 
