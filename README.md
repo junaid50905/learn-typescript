@@ -224,10 +224,9 @@ person = ['junaid', 22] // eikhane kono error asbe nah karon, array is one kind 
 ### function
 1/ void
 
-this is the default return type of a function
-
+this is the default return type of a function<br>
+The type void can be used to indicate a function doesn't return any value.
 ```
-//The type void can be used to indicate a function doesn't return any value.
 function myFun() :void {
     console.log('hi there');
 }
@@ -242,7 +241,15 @@ function myFun() {
 myFun()
 ```
 
+2/ return type
 
+this function will return a number
+```
+function myFun() : number{
+    return 4 + 5;
+}
+console.log(myFun());
+```
 
 
 
