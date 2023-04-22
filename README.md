@@ -66,7 +66,13 @@ console.log(a);
 a= "string" // here we will get an error . karon amra upore variable declareation er sathe value assign kore dici, ar tokhon variable er implicit data type sihebe number hoye geche
 console.log(a);
 ```
-
+###### any: a spicial data type
+```
+let a :any = 3
+console.log(a);
+a= "string" // ekhon ar error pabo nah, karon amra bole diyechi any type of data we can put
+console.log(a);
+```
 
 ### array
 TypeScript has a specific syntax for typing arrays.<br>
