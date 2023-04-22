@@ -46,6 +46,12 @@ here, we have to change something in tsconfig.json file's. <br>
 run the code : tsc <br>
 run the code with watching file changes : tsc -w
 
+### data type
+there are three data types in ts
+- number: all types  of number like: integer, float, positive, negative
+- string
+- boolean
+
 ### variable
 ```
 const studentName : string = 'junaid'
@@ -53,6 +59,14 @@ const studentRoll : number = 21
 
 console.log(`name: ${studentName} --- roll: ${studentRoll}`); //name: junaid --- roll: 21
 ```
+
+```
+let a = 3
+console.log(a);
+a= "string" // here we will get an error . karon amra upore variable declareation er sathe value assign kore dici, ar tokhon variable er implicit data type sihebe number hoye geche
+console.log(a);
+```
+
 
 ### array
 TypeScript has a specific syntax for typing arrays.<br>
