@@ -251,8 +251,31 @@ function myFun() : number{
 console.log(myFun());
 ```
 
+3/ parameters
+```
+function myFun(a: string, b: number) {
+    console.log(`My name is ${a} and age is ${b}`);
+    
+}
+myFun("junaid", 23)
+```
 
+4/ Optional Parameters
+```
+function add(a: number, b: number, c?: number) {
+    return a + b + (c || 0) //8
+}
+console.log(add(3,5));
+```
 
+5/Default Parameters
+```
+function add(a: number, b: number, c: number = 10) {
+    return a + b + (c || 0)
+}
+console.log(add(3,5));
+
+```
 
 
 
