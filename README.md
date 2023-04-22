@@ -57,6 +57,24 @@ console.log(`name: ${studentName} --- roll: ${studentRoll}`); //name: junaid ---
 ### array
 TypeScript has a specific syntax for typing arrays.<br>
 
+-1
+```
+const arr = [1,4]
+// ei array te integer ar flot chara ono kono data type er value push korte nah
+```
+
+-1
+```
+const arr = [1, "junaid"]
+// ei array te integer/flot and string chara ono kono data type er value push korte nah// we will get an error when we will want to push boolean value
+```
+
+-1
+```
+const arr = [1, "junaid", false]
+// ei array te integer/flot, string, boolean value push korte parbo
+```
+
 0
 ```
 const values = []
