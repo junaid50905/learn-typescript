@@ -251,6 +251,16 @@ function myFun() : number{
 console.log(myFun());
 ```
 
+for arrow function
+```
+const less = (b : string) : string=> {
+    return `hi, ${b}`
+}
+console.log(less('arman'));
+```
+
+
+
 3/ parameters
 ```
 function myFun(a: string, b: number) {
