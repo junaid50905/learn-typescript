@@ -303,10 +303,14 @@ console.log(add({a: 3, b:5})); //8
 type alias er madhomme amra type gulo ke seperately alada kore pelte pari, pore caile amra jekono jaygay ei type gulo ke use korte pari
 
 example: one
+
+without alias
 ```
 let id: string | number = 23
 ```
 eitake amra type alias er madhomme nicher moto kore likhte pari
+
+with alias
 ```
 type idType = string | number
 
@@ -314,6 +318,28 @@ let id: idType = 23
 ```
 amra caile ei idType ke jekono jaygay use korte pari.
 
+
+example: two
+
+without alias
+```
+const userDetailed = (user: { id: string | number, name: string, age: number, datheOFBirth: string }) => {
+    console.log(`Hello, ${user.name} your age is ${user.age} and date of birth is ${user.datheOFBirth}, use this id ${user.id}`);
+}
+userDetailed({ id: 12, name: 'junaid', age: 23, datheOFBirth: '18-april-1999' })
+```
+
+with alias
+```
+type idType = string | number
+type userDetailedType = { id: idType, name: string, age: number, datheOFBirth: string }
+
+const userDetailed = (user: userDetailedType) => {
+    console.log(`Hello, ${user.name} your age is ${user.age} and date of birth is ${user.datheOFBirth}, use this id ${user.id}`);
+}
+userDetailed({ id: 12, name: 'junaid', age: 23, datheOFBirth: '18-april-1999' })
+
+```
 
 
 
