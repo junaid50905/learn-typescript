@@ -342,6 +342,24 @@ userDetailed({ id: 12, name: 'junaid', age: 23, datheOFBirth: '18-april-1999' })
 ```
 
 
+### function signature
+function signature bolte bujay je ekti function er structure ta kemon hobe ta.
+
+##### example: one
+
+```
+// ekjon developer caile add nam a ekti function banate parbe but function er structure ta hote hobe ei rokom
+let add : (a: number, b:number)=> number
+
+// we may change the parameter name // 
+add = (firstNumber: number, secondNumber: number) =>{
+    return firstNumber + secondNumber;
+}
+
+console.log(add(7, 4));
+
+```
+
 
 
 
