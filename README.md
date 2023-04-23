@@ -356,9 +356,35 @@ add = (firstNumber: number, secondNumber: number) =>{
     return firstNumber + secondNumber;
 }
 
-console.log(add(7, 4));
+console.log(add(7, 4)); //11
 
 ```
+
+##### example: two
+```
+let calculation : (a: number, b:number, c: string)=> void
+
+calculation = (firstNumber: number, secondNumber: number, operation: string) =>{
+        if (operation === 'add') {
+            console.log(firstNumber + secondNumber)            
+        }else if(operation === 'minus'){
+            console.log(firstNumber + secondNumber);
+        }
+}
+
+calculation(3,6, 'add') //9
+```
+
+##### example: three
+```
+let userDetailed : (id: string | number, userInfo: {name: string, age: number})=> void
+
+userDetailed = (userId: string | number, userInformation: {name: string, age: number})=>{
+    console.log(`user id: ${userId}, name: ${userInformation.name} age: ${userInformation.age}`);
+}
+
+userDetailed(121, {name: 'junaid', age: 32})
+``
 
 
 
