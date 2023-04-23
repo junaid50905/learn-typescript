@@ -296,6 +296,23 @@ function add({a , b}: {a:number, b:number}){
 console.log(add({a: 3, b:5})); //8
 
 ```
+7/ rest parameters
+
+8/ type alias
+
+type alias er madhomme amra type gulo ke seperately alada kore pelte pari, pore caile amra jekono jaygay ei type gulo ke use korte pari
+
+example: one
+```
+let id: string | number = 23
+```
+eitake amra type alias er madhomme nicher moto kore likhte pari
+```
+type idType = string | number
+
+let id: idType = 23
+```
+amra caile ei idType ke jekono jaygay use korte pari.
 
 
 
