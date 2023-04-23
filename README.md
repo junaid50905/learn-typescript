@@ -287,7 +287,15 @@ console.log(add(3,5));
 
 ```
 
+6/ named parameter
 
+```
+function add({a , b}: {a:number, b:number}){
+    return a + b
+}
+console.log(add({a: 3, b:5})); //8
+
+```
 
 
 
