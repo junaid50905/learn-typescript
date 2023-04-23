@@ -379,6 +379,7 @@ calculation(3,6, 'add') //9
 ```
 let userDetailed : (id: string | number, userInfo: {name: string, age: number})=> void
 
+// we can change parameter name but we cannot change object property, like name we cannot change it userName
 userDetailed = (userId: string | number, userInformation: {name: string, age: number})=>{
     console.log(`user id: ${userId}, name: ${userInformation.name} age: ${userInformation.age}`);
 }
