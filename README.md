@@ -302,7 +302,7 @@ console.log(add({a: 3, b:5})); //8
 
 type alias er madhomme amra type gulo ke seperately alada kore pelte pari, pore caile amra jekono jaygay ei type gulo ke use korte pari
 
-example: one
+###### example: one
 
 without alias
 ```
@@ -319,7 +319,7 @@ let id: idType = 23
 amra caile ei idType ke jekono jaygay use korte pari.
 
 
-example: two
+##### example: two
 
 without alias
 ```
