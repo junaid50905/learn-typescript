@@ -384,19 +384,7 @@ userDetailed = (userId: string | number, userInformation: {name: string, age: nu
 }
 
 userDetailed(121, {name: 'junaid', age: 32})
-``
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
