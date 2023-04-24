@@ -388,7 +388,32 @@ userDetailed(121, {name: 'junaid', age: 32})
 ```
 
 
+### Working with class
 
+##### example: one
+```
+class player {
+    name: string
+    counrty: string
+    age: number
+
+    constructor(n: string, c: string, a: number) {
+        this.name = n
+        this.counrty = c
+        this.age = a
+    }
+    play(){
+        console.log(`name: ${this.name} age: ${this.age} country: ${this.counrty}`);
+    }
+}
+
+const playerOne = new player('mashrafi', 'banlgadesh', 44)
+const playerTwo = new player('sakib', 'india', 34)
+
+
+playerOne.play()
+playerTwo.play()
+```
 
 
 
