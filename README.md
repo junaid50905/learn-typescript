@@ -415,6 +415,57 @@ playerOne.play()
 playerTwo.play()
 ```
 
+##### example: two
+create an array with class's objects 
+
+eikhane players nam a ekti array neya hoiche, jei array te player class theke papto object diye array fill kora hobe.
+```
+class player {
+    name: string
+    counrty: string
+    age: number
+
+    constructor(n: string, c: string, a: number) {
+        this.name = n
+        this.counrty = c
+        this.age = a
+    }
+    play(){
+        console.log(`name: ${this.name} age: ${this.age} country: ${this.counrty}`);
+    }
+}
+
+const playerOne = new player('mashrafi', 'banlgadesh', 44)
+const playerTwo = new player('sakib', 'india', 34)
+
+const players : player[] = []
+
+players.push(playerOne, playerTwo)
+
+console.log(players);
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
