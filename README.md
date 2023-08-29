@@ -31,8 +31,9 @@ now we will be able to write typescript code.
 ##### run single typescript file
 terminal: tsc filename(like : tsc script.ts)
 
-#### project setup
-terminal: tsc --init
+### project setup
+terminal:
+- tsc --init
 
 - src---------->typescript files
 - output------->typescript javascript converted files
